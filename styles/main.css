@@ -1,0 +1,237 @@
+/*-----Global Styles-------*/
+
+h1, h2, h3, h4, p, ul, li, a, span, blockquote{
+vertical-align: baseline;
+}
+
+p, li, a, strong {
+	font-family: 'Open Sans', sans-serif;
+} 
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 32px;
+}
+
+h3 {
+	font-family: 'Bitter', serif;
+	font-size: 26px;
+	margin: 10px 0px;
+}
+
+
+p, ul, li{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px;
+
+}
+
+.container{
+	margin: 25px;
+}
+
+
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1; /* ie 6/7 */
+}
+
+
+.button {
+	border-radius: 5px;
+	display: inline-block;
+	text-align: center;
+	padding: 20px 60px;
+	margin: 50px 0px 10px 0px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-transform: uppercase;
+	font-size: 24px;
+	box-shadow: inset 0px -4px 0px rgba(0, 0, 0, .3);
+}
+
+
+
+.verticalBorder{
+	border-right: 1px solid #777777;
+}
+
+/*------Mix Ins----------*/
+
+.yellow{
+	color: #e4e81e;
+}
+
+.greyBG{
+	background-color: #c9c9c3;
+}
+
+
+.yellowBG{
+	background-color: #e4e81e;
+}
+
+
+.underline {
+	text-decoration: underline #e4e81e;
+
+}
+
+
+/*------Header---------*/
+
+
+header  {
+	background-color: #1c1c1a;
+	width: 100%;
+	margin: 0px auto;
+	position: fixed;
+	top: 0px;
+	box-sizing: border-box;
+	display: block;
+	border-bottom: 5px solid #e4e81e;
+}
+
+
+.logo{
+	font-family: 'Bitter', serif;
+	font-weight: 400;
+	letter-spacing: .5px;
+	display: block;
+	margin: 10px 0px;
+}
+
+nav {
+	float: right;
+	margin: 10px 0px;
+
+}
+
+ul li {
+	float: left;
+	list-style: none;
+	margin: 0px 0px 0px 40px;
+	vertical-align: baseline;
+}
+
+
+nav ul li {
+	color: white;
+}
+
+li strong{
+	font-size: 24px;
+	vertical-align: baseline;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-transform: uppercase;
+}
+
+
+/*-----Main------*/
+main{
+	position: relative;
+	top: 165px;
+	background-image: url('..//assets/coworking.jpg');
+	background-position: top center;
+	background-size: cover;
+	height: 600px;
+}
+
+
+aside {
+display: block;
+width: 100%;
+margin: 0px;
+padding: 25px;
+}
+
+.callout {
+	font-family: 'Bitter', serif;
+	font-weight: 400;
+	font-style: italic;
+	text-align: center;
+}
+
+
+.opacityFifty{
+	color: rgba(0, 0, 0, .4);
+}
+
+#mainCta{
+	float: right;
+	width: 50%;
+	padding: 50px;
+	background-color: rgba(249, 249, 249, .8);
+	box-sizing: border-box;
+	margin: 2% 0%;
+	box-shadow: 6px 6px 14px rgba(0, 0, 0, .6);
+
+}
+
+#mainCta h1{
+	margin: 17.5px 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+
+
+/*------Articles--------*/
+#articles{
+	position: relative;
+	top: 145px;
+	margin: 50px 0px;
+}
+
+#Profile, #Developer, #Designer{
+	float: left;
+	width: 30%;
+	box-sizing: border-box;
+	padding: 0px 10px;
+}
+
+
+#Profile, #Developer{
+	margin-right: 5%;
+}
+
+
+
+
+
+
+/*------Footer--------*/
+
+footer{
+	position: fixed;
+	bottom: 0px;
+	background-color: #1c1c1a;
+	display: block;
+	width: 100%;
+}
+
+
+.footerText{
+	text-align: center;
+	font-size: 14px;
+	color: white;
+}
+
+
+
+

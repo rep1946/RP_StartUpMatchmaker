@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Start up matchmaker</title>
+	<link href="https://fonts.googleapis.com/css?family=Bitter:400,400i|Open+Sans|Open+Sans+Condensed:700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="./styles/reset.css">
 	<link rel="stylesheet" type="text/css" href="./styles/main.css">
 </head>
@@ -10,8 +11,8 @@
 
 	<!--header-->
 	<header>
-		<div class="container">
-			<h1 class="logo"></h1>
+		<div class="container clearfix">
+			<h1 class="logo yellow">Startup Matchmaker</h1>
 			<nav>	
 				<ul>
 					<li><strong>Find developers</strong></li>
@@ -28,14 +29,16 @@
 
 	<!--main-->
 	<main>
-		<div class="container">
-			<aside>
-				<h2 class="callout">Becasue two brains <s>taste</s> are better than one!</h2>
+			<aside class="greyBG">
+				<h2 class="callout">Because two brains <s class="opacityFifty">taste</s>&nbsp<span class="underline">are</span> better than one!</h2>
 			</aside>
-			<section id="mainCTA"></section>
+		<div class="container clearfix">
+	
+			<section id="mainCta">
 				<h1>Meet your match!</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim dolor est ullam quod obcaecati amet reiciendis unde dicta perferendis similique?</p>
-				<div class="button yellow"><strong>Create a profile</strong></div>
+				<p>Have a great idea for a product but need help making it a reality? We're here to help. Startup Matchmaker is the best place for designers to find each other</p>
+				<div class="button yellowBG">Create a profile</div>
+			</section>	
 		</div>
 
 	</main>
@@ -43,10 +46,24 @@
 
 
 
-	<section>
-		<div class="container">
-			<article>
-				
+	<section id="articles">
+		<div class="container clearfix">
+			<article id="Profile" class="verticalBorder">
+				<h3>Create a Profile</h3>
+				<p>Are you a Dersigner? Developer? Put Yourself out there so tha tothers can find you!</p>
+				<div class="button greyBG">Sign up now</div>
+			</article>
+
+			<article id="Developer" class="verticalBorder">
+				<h3>Find a Developer</h3>
+				<p>Looking for a fantastic devloper to work with on the next big thing? Look no further.</p>
+				<div class="button greyBG">Sign up now</div>
+			</article>
+
+			<article id="Designer">
+				<h3>Find a Developer</h3>
+				<p>Need someone who can make a product look fantastic and appealing? Get ready.</p>
+				<div class="button greyBG">Sign up now</div>
 			</article>
 		</div>
 	</section>
@@ -55,17 +72,10 @@
 
 
 	<footer>
-		<div class="container">
+		<div class="container clearfix">
 			<p class="footerText">&copy; 2018 Startup Matchmaker. Made in NY.</p>
 		</div>
 	</footer>
-
-
-
-
-
-
-
 	
 </body>
 </html>
